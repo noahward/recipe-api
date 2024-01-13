@@ -1,0 +1,8 @@
+-r base.in
+
+black
+flake8
+flake8-pyproject
+isort
+pip-compile-multi
+pre-commit

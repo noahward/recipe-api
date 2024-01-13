@@ -1,0 +1,11 @@
+app-name: "recipe-api"
+
+debug: False
+
+secret_key: ???
+
+server:
+  host: ???
+  port: ???
+
+database_uri: ???

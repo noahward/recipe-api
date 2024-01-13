@@ -1,0 +1,15 @@
+[tool.black]
+line-length = 88
+skip-string-normalization = false
+
+[tool.flake8]
+max-line-length = 88
+
+[tool.isort]
+profile = "black"
+length_sort = true
+force_grid_wrap = 0
+multi_line_output = 3
+use_parentheses = true
+include_trailing_comma = true
+ensure_newline_before_comments = true
